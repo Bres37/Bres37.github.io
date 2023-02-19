@@ -1,6 +1,6 @@
 body {
-  background-color: #182B49;
-  color: #FFCD00;
+  background-color: #011F5b;
+  color: #dddddd;
   font-family: Arial, Helvetica, sans-serif;
   margin: 5% 15%;
 }
@@ -13,22 +13,22 @@ body {
 .edu-header{
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  border-top: 3px solid #990000;
+  border-bottom: 3px solid #990000;
 }
 
 .exp-header{
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  border-top: 3px solid #990000;
+  border-bottom: 3px solid #990000;
 }
 
 .info-header{
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  border-top: 3px solid #990000;
+  border-bottom: 3px solid #990000;
 }
 
 .wharton-logo{

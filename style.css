@@ -1,44 +1,72 @@
 body {
-  background-color: #011F5b;
-  color: #dddddd;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 5% 15%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.res-name{
-  text-align: center;
-  text-transform: uppercase;
+.banner {
+    background-image: url('path-to-your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.edu-header{
-  text-align: center;
-  text-transform: uppercase;
-  border-top: 3px solid #990000;
-  border-bottom: 3px solid #990000;
+.banner h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
 }
 
-.exp-header{
-  text-align: center;
-  text-transform: uppercase;
-  border-top: 3px solid #990000;
-  border-bottom: 3px solid #990000;
+.content {
+    display: flex;
+    justify-content: flex-end;
+    background-color: beige;
+    padding: 20px;
 }
 
-.info-header{
-  text-align: center;
-  text-transform: uppercase;
-  border-top: 3px solid #990000;
-  border-bottom: 3px solid #990000;
+.right-section h2 {
+    font-size: 2em;
+    font-weight: bold;
 }
 
-.wharton-logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.right-section h3 {
+    font-size: 1.5em;
 }
 
-.ucsd-logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.right-section p {
+    font-size: 1em;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.apply {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.learn-more {
+    background-color: beige;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
 }
